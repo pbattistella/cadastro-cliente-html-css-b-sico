@@ -1,0 +1,95 @@
+body{
+    font-family: arial;
+    margin: 0;
+    background-color: #edeef3;
+}
+
+/* Cabeçalho*/
+header{
+    border-top: 1px solid #edeef3;
+    ;
+    border-bottom: 2px solid #17046b;
+    padding-left: 40px;
+    background-color: white;
+}
+
+header h2{
+    color: #17046b;
+}
+
+/*Corpo*/
+form{
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 5px;
+    background-color: white;
+    width: 500px;
+    padding: 15px;
+}
+
+div h3{
+    color: #17046b;
+    margin-left: 10px;
+}
+
+hr{
+    border: 1px solid #17046b;
+    background-color: #17046b;
+    margin-bottom: 20px;
+}
+
+.container{
+    display: inline;
+}
+
+.input-field{
+    border: 1px solid #edeef3;
+    border-bottom: 1px solid black;
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    outline: 0;
+    font-weight: bold;
+}
+
+.input-field:hover{    
+    background-color: #f8f8f8;
+}
+
+label{
+    margin-left: 10px;
+    font-size: 4mm;
+}
+
+.botao-container{
+    
+    text-align: center;
+}
+
+button{
+    width: 45%;
+    padding: 9px;
+    font-weight: bold;
+    outline: 0;
+    border: none;
+    border-radius: 3px;
+    margin: 5px;
+    cursor: pointer;
+}
+.btn-limpar{
+    background-color: #b8b6b6;
+    color: white;
+}
+
+.btn-limpar:hover{
+    background-color: #7c7b7b;
+}
+
+.btn-salvar{
+    background-color: #3caa09;
+    color: white;
+}
+
+.btn-salvar:hover{
+    background-color: #246b02;
+}
